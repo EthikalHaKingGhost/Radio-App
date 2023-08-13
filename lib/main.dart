@@ -1,5 +1,5 @@
 import 'package:flutter/material.dart';
-import 'package:radio_app_v2/screens/HomePage.dart';
+import 'package:radio_app_v2/screens/home_screen.dart';
 import 'package:just_audio_background/just_audio_background.dart';
 
 Future<void> main() async {
