@@ -1,5 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:radio_app_v2/screens/home_screen.dart';
+import 'package:radio_app_v2/screens/screens.dart';
 import 'package:just_audio_background/just_audio_background.dart';
 
 Future<void> main() async {
@@ -19,7 +20,7 @@ class MyApp extends StatelessWidget {
   Widget build(BuildContext context) {
     return const MaterialApp(
       debugShowCheckedModeBanner: false,
-      home: HomePage(),
+      home: HomeScreen(),
     );
   }
 }

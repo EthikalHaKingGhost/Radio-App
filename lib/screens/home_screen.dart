@@ -1,20 +1,9 @@
 // ignore: file_names
 import 'package:flutter/material.dart';
 import 'package:font_awesome_flutter/font_awesome_flutter.dart';
-import 'package:radio_app_v2/screens/menus.dart';
-import 'package:radio_app_v2/screens/radio_player.dart';
 import 'package:url_launcher/url_launcher.dart';
-
-final Uri fbUrl =
-    Uri.parse('https://www.facebook.com/profile.php?id=100083206156252');
-final Uri phoneUrl = Uri.parse('tel:18253434486');
-final Uri ytUrl =
-    Uri.parse('https://www.youtube.com/channel/UC-vPr7qEu7B6LkGVA8ZjaxQ');
-final Uri iGUrl =
-    Uri.parse('https://instagram.com/hggradio?igshid=YmMyMTA2M2Y=');
-final Uri scheduleUrl = Uri.parse('https://hggradio.ca/programs/');
-final Uri mailUrl = Uri.parse('mailto:hgtmradio@hotmail.com');
-final Uri webUrl = Uri.parse('https://hggradio.ca');
+import 'package:radio_app_v2/screens/screens.dart';
+import 'package:radio_app_v2/constants/constants.dart';
 
 class HomePage extends StatefulWidget {
   const HomePage({super.key});
