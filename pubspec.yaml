@@ -23,7 +23,7 @@ dependencies:
   just_audio: ^0.9.29
   just_audio_background: ^0.0.1-beta.7
   permission_handler: ^10.0.2
-  share_plus: ^4.4.0
+  share_plus: ^7.1.0
 
 flutter_native_splash:
   color: "#ffffff"
